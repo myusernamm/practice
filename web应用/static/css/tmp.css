@@ -1,0 +1,27 @@
+h2 {
+  text-align: center;
+}
+p {
+  line-height: 1.5em;
+  letter-spacing: 1px;
+  text-indent: 2em;
+}
+p::first-letter {
+  font-size: 1.2em;
+  color: red;
+}
+.beautiful-p {
+  text-decoration: underline wavy green;
+}
+.shadow-p {
+  text-shadow: 5px 5px 5px grey;
+}
+.fold-p {
+  font-weight: 800;
+}
+.italic-p {
+  font-style: italic;
+}
+.fantasy-p {
+  font-family: monospace;
+}
